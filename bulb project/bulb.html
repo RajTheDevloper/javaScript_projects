@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BULB PROJECT</title>
+</head>
+<body>
+    <h1>WHAT CAN JAVASCRIPT DO!!</h1>
+    <P>JavaScript can change HTML attributes values</P>
+    <p>In this case JavaScript changes the value of the src(source) attribute of an image</p>
+
+    <!-- button clicking on which bulb is going to turn on  -->
+    <button onclick="document.getElementById('myImage').src='pic_bulbon_ON.gif'">Turn On The light</button>
+    <!-- image with id = "myImage" -->
+    <img id="myImage" src="pic_bulb_off.gif" style="width:100px"> 
+     <!-- button clicking on which bulb is going to turn off -->
+    <button onclick="document.getElementById('myImage').src='pic_bulb_off.gif'">Turn off the light</button>
+
+
+    <button onclick="document.getElementById('My_Image').src = 'pic_bulbon_ON.gif'">ON</button>
+    <image id = "My_Image" src = "pic_bulb_off.gif" style = "width: 50px;">BULB</image>
+    <button onclick="document.getElementById('My_Image').src = 'pic_bulb_off.gif'">OFF</button>
+</body>
+</html>
